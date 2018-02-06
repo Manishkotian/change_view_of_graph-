@@ -1,3 +1,4 @@
+app.controller('SubjectController',function($scope,$http,SubjectUploadService,$sce,TokenVerifierService,SwalLoadingService){  
   $scope.colorsArray = ["#4c7ff0","#7fc35c","#f0c54c","#d26d54","#4cc3f0"];
 
     $scope.drawSubjectDetailsGraph = function(graphType,canvasId){
@@ -177,3 +178,4 @@
             }
         }
     }
+  )}
